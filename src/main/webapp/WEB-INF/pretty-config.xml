@@ -1,0 +1,21 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+
+	<url-mapping id="template1">
+		<pattern value="/template1" />
+		<view-id value="/template/template_carousel.xhtml" />
+	</url-mapping>
+	
+	<url-mapping id="template2">
+		<pattern value="//template2" />
+		<view-id value="/template/template_cover.xhtml" />
+	</url-mapping>
+	
+	<url-mapping id="template3">
+		<pattern value="/template3" />
+		<view-id value="/template/template_fixed_top.xhtml" />
+	</url-mapping>
+
+</pretty-config>
